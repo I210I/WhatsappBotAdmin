@@ -6,6 +6,16 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# macOS system files
+.DS_Store
+
+# VSCode settings (optional)
+.vscode/
+
+# Lock files (opcional, si solo usas uno)
+# package-lock.json
+# yarn.lock
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -137,3 +147,8 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+.env.*
+src/dummy/
+.env.*
+._*
